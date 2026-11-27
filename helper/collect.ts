@@ -3,7 +3,8 @@ const CANDIDATE_LIST_FILE = "./ProxyCandidate.txt";
 const REQUEST_TIMEOUT = 30_000;
 
 const SOURCES = [
-  "https://raw.githubusercontent.com/Xiaobei09/proxyip/main/data/valid/all_ltd.txt",
+  "https://raw.githubusercontent.com/0688001/proxyip/main/data/all.txt",
+  "https://raw.githubusercontent.com/malvenk/ProxyIP-Pool/main/ips/all.txt",
 ];
 
 const PROXY_PATTERN = /(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})[:,](\d{1,5})/g;
